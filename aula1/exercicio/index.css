@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header,
+nav,
+section,
+footer{
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+nav{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    gap: 200px; 
+    padding-left: 30%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    text-align: center;
+    background-color: #eee;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    height: 80px;
+    width: 80px;
+    margin-top: 0px;
+    gap: 10px;
+}
